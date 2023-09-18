@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Numero
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Numero\ here.\r\n\r\n\ @Neich\r\n\ @8/17/2023\r\n
+comment1.params=valor
+comment1.target=Numero(int)
+comment2.params=
+comment2.target=int\ getter()
+comment3.params=otroNumero
+comment3.target=Numero\ sumar(Numero)
+comment4.params=nuevo_valor
+comment4.target=void\ setter(Numero)
+numComments=5
