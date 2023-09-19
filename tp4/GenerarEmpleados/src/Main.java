@@ -1,8 +1,12 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
+    public static void ordernarPorApellido(Empleado arr[]) {
+
+    }
     public static void main(String[] args) {
 
         Fecha contratacion = new Fecha(18,9,2023);
@@ -22,9 +26,14 @@ public class Main {
         listaEmpleados.add(empleadoHora);
         listaEmpleados.add(empleadoSubordinado);
 
-
         for (Empleado  empleado : listaEmpleados) {
             System.out.println("Salario de " + empleado.getNombre() + ": " + empleado.calcularSalario());
+        }
+
+        Collections.sort(listaEmpleados);
+
+        for (Empleado empleado : listaEmpleados) {
+            System.out.println(empleado.getApellido() + " " + empleado.getNombre());
         }
 
     }
