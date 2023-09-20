@@ -22,4 +22,11 @@ public abstract class Empleado implements Comparable<Empleado>{
     public String getApellido() {
         return  apellido;
     }
+    public Fecha getFechaContratacion() {
+        return  fechaContratacion;
+    }
+    public Fecha getFechaCumpleanios() {
+        return  fechaCumpleanios;
+    }
+
 }
